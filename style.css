@@ -1,0 +1,115 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+.jumbotron {
+ font-size: 17px;
+ padding: 60px;
+ background-color: #F5F5DC;
+ text-align: center;
+ margin: 0;
+ color: #000;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+}
+
+nav li {
+ display: inline;
+ list-style-type: none;
+ margin-right: 20px;
+}
+nav {
+ background-color: #FFA500;
+ padding: 5px;
+ text-align: center;
+}
+nav a {
+ font-size: 18px;
+ font-weight: 400;
+ text-decoration: none;
+ color: white;
+}
+
+nav ul a:hover{
+ color:#000;
+}
+
+aside {
+ float: right;
+ width: 25%;
+ padding-left: 20px;
+}
+main {
+ padding: 20px;
+ overflow: auto;
+}
+#content {
+ float: left;
+ width: 75%;
+ text-align: justify;
+}
+.gambarKonten {
+ width: 100%;
+ max-height: 300px;
+ object-fit: cover;
+ object-position: center;
+}
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ border-radius: 5px;
+ padding: 20px;
+ margin-top: 20px;
+}
+.card2 {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ border-radius: 5px;
+ padding: 20px;
+ margin-top: 20px;
+}
+footer{
+ background:#3CB371;
+ padding:3px;
+ color: #F5FFFA;
+ text-align: center;
+ font-weight: bold;
+}
+.gambarAside {
+ width: 100%;
+ max-height: 300px;
+ object-fit: cover;
+ object-position: center;
+}
+h2{
+ color:#FF6347;
+ padding:0;
+}
+.identitas{
+ color : #000;
+ text-align:center;
+}
+/*design table 1*/
+.table1 {
+ font-family: sans-serif;
+ color: #232323;
+ border-collapse: collapse;
+}
+
+.table1, th, td {
+ border: 1px solid #999;
+ padding: 8px 20px;
+}
+@media screen and (max-width: 1000px) {
+ #content,
+ aside {
+     width: 100%;
+     padding: 0;
+ }
+}
+
+header {
+ display: inline;
+}
